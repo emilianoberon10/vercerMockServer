@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "functions": {
+    "api/leads.js": {
+      "runtime": "nodejs20.x"
+    }
+  },
+  "routes": [
+    {
+      "src": "/leads",
+      "dest": "/api/leads.js"
+    }
+  ]
+}
